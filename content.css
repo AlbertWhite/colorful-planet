@@ -1,0 +1,70 @@
+@font-face {
+    font-family: hobostd;
+    src: url(HoboStd.otf)
+}
+.title {
+    margin: 30px auto -20px auto;
+    font-family: hobostd;
+    text-align: center;
+    text-transform: uppercase
+}
+.link-span {
+    font-size: 45px;
+    padding-left: 5px;
+    cursor: pointer;
+}
+.link-span:hover {
+    font-size: 48px
+}
+body {
+    background-color: #ffdf36;
+    padding: 0px;
+    margin: 0px
+}
+video {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: auto;
+    height: auto;
+    min-width: 100%;
+    min-height: 100%;
+    background-size: cover;
+    z-index: -200
+}
+#carousel-example-generic {
+    width: 810px;
+    margin: 10% auto;
+    opacity: 0.8;
+    border: 1px solid white
+}
+.span-underline {
+    width: 42%;
+    height: 4px;
+    margin: 0 auto;
+    background-color: rgba(255, 255, 255, 0.67)
+}
+.red-span {
+    color: #fe7878;
+}
+.yellow-span {
+    color: #ecec5b;
+}
+.purple-span {
+    color: #cc5ccc;
+}
+.green-span {
+    color: #61de61;
+}
+.blue-span {
+    color: #7f7fef;
+}
+.white-span {
+    color: white
+}
+.black-span {
+    color: black
+}
+.orange-span {
+    color: #eda435;
+}
